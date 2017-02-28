@@ -16,5 +16,5 @@
 
 ---
 
-* [II.安装Ambari](ii.ambari.md)
+* [II.安装Ambari]
 
