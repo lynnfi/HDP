@@ -16,5 +16,5 @@
 
 ---
 
-* [II.安装Ambari]
+* II.安装Ambari
 
