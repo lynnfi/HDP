@@ -19,6 +19,9 @@
     * [4.2 ntp时间同步](I.安装前准备/ntp时间同步.md)
     * [4.3 安装JDK](I.安装前准备/安装JDK.md)
     * [4.4 检查DNS和NSCD设置](I.安装前准备/检查DNS和NSCD设置.md)
+      * [4.4.1编辑host文件](I.安装前准备/编辑host文件.md)
+      * [4.4.2设置hostname](I.安装前准备/编辑hostname文件.md)
+      * [4.4.3设置network文件](I.安装前准备/设置network文件.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
 
     
