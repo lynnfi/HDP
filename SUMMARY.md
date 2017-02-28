@@ -23,7 +23,7 @@
       * [4.4.2设置hostname](I.安装前准备/编辑hostname文件.md)
       * [4.4.3设置network文件](I.安装前准备/设置network文件.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
-    * [4.5 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
+    * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
     
     
 
