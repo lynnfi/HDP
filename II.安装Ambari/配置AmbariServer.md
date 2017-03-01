@@ -1,4 +1,5 @@
-##2.设置
+##2.设置Ambari Server
+
 
 在启动 Ambari Server之前, 你 **必须** 先设置Ambari Server. 设置操作将会包含，Ambari使用的database, JDK并且允许你配置用户已经在使用的数据库或JDK版本。
 
