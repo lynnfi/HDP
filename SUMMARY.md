@@ -27,5 +27,5 @@
     
 
 
-* II.安装Ambari
+* II.[安装Ambari](安装Ambari.md)
 
