@@ -2,9 +2,9 @@
 
 * [HDP安装指南](README.md)
 * [I.安装前准备](i.安装前准备.md)
-  * [1.基本概念](I.安装前准备/基本概念.md)
-  * [2.部署方案确认](I.安装前准备/部署方案确认.md)
-  * [3.最低资源需求](I.安装前准备/最低资源需求.md)
+  * [1. 基本概念](I.安装前准备/基本概念.md)
+  * [2. 部署方案确认](I.安装前准备/部署方案确认.md)
+  * [3. 最低资源需求](I.安装前准备/最低资源需求.md)
     * [3.1 操作系统需求](I.安装前准备/操作系统需求.md)
     * [3.2 浏览器需求](I.安装前准备/浏览器需求.md)
     * [3.3 软件版本需求](I.安装前准备/浏览器版本需求.md)
@@ -16,9 +16,9 @@
 
   * [4.系统环境配置](系统环境配置.md)
     * [4.1 检查DNS和NSCD设置](I.安装前准备/检查DNS和NSCD设置.md)
-      * [4.1.1编辑host文件](I.安装前准备/编辑host文件.md)
-      * [4.1.2设置hostname](I.安装前准备/编辑hostname文件.md)
-      * [4.1.3设置network文件](I.安装前准备/设置network文件.md)
+      * [4.1.1 编辑host文件](I.安装前准备/编辑host文件.md)
+      * [4.1.2 设置hostname](I.安装前准备/编辑hostname文件.md)
+      * [4.1.3 设置network文件](I.安装前准备/设置network文件.md)
     * [4.2 安装JDK](I.安装前准备/安装JDK.md)
     * [4.3 ssh无密码登录](I.安装前准备/ssh无密码登录.md)
     * [4.4 ntp时间同步](I.安装前准备/ntp时间同步.md)
@@ -26,5 +26,6 @@
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
     
 * II.[安装Ambari](安装Ambari.md)
-  * [1.下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
-    * [1.1  RHEL/CentOS/Oracle Linux 6](II.安装Ambari/ RHEL/CentOS/Oracle Linux 6.md)
+  * [1. 下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
+    * [1.1  RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
+    
