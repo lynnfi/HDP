@@ -24,12 +24,12 @@
 
         
 
-| repo id |repo name  |status  |
-| :--- | :--- | :--- |
-| AMBARI.2.4.2.0-2.x | Ambari 2.x | 	5 |
-|base  | CentOS-6 - Base |  6518|
-| extra |CentOS-6 - Extras  | 15 |
-|updates  | CentOS-6 - Updates | 209 |
+      | repo id |repo name  |status  |
+      | :--- | :--- | :--- |
+      | AMBARI.2.4.2.0-2.x | Ambari 2.x | 	5 | 
+      |base  | CentOS-6 - Base |  6518|
+      | extra |CentOS-6 - Extras  | 15 |
+      |updates  | CentOS-6 - Updates | 209 |
 
 
 
