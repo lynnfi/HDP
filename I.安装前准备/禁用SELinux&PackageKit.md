@@ -18,7 +18,18 @@
    enabled=0
   ```
 
+3. 检查UMASK 
 
+  - 检查系统UMASK
+  
+    `umask`
 
+  - 设置当前UMASK
+  
+    `umask 0022`
+    
+  - 永久生效
+  
+    `echo umask 0022 >> /etc/profile`
 
 
