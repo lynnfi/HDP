@@ -9,7 +9,7 @@
    SELINUX=disabled
    ```
 
-1. 编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
+2. 编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
 
   ```
   vim /etc/yum/pluginconf.d/refresh-packagekit.conf
