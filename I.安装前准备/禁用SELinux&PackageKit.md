@@ -15,6 +15,7 @@
   
   ```
   vim /etc/yum/pluginconf.d/refresh-packagekit.conf
+  
    #确认packagekit为禁用状态
    enabled=0
   ```
