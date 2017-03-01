@@ -14,8 +14,6 @@
   * 通常在centos和redhat中为开启
   
   ```
-  编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
-
   vim /etc/yum/pluginconf.d/refresh-packagekit.conf
    #确认packagekit为禁用状态
    enabled=0
