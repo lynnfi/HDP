@@ -7,3 +7,12 @@
 
 `ambari-server setup`
 
+配置提示：
+
+    1. If you have not temporarily disabled SELinux, you may get a warning. Accept the default (y), and continue.
+
+    2. By default, Ambari Server runs under root. Accept the default (n) at the Customize user account for ambari-server daemon prompt, to proceed as root. If you want to create a different user to run the Ambari Server, or to assign a previously created user, select y at the Customize user account for ambari-server daemon prompt, then provide a user name. Refer to the Hortonworks Data Platform Apache Ambari Reference > Configuring Ambari for Non-Root, for more information about running the Ambari Server as non-root.
+    
+    3. If you have not temporarily disabled iptables you may get a warning. Enter y to continue.
+
+    4. Select a JDK version to download. Enter 1 to download Oracle JDK 1.8. Alternatively, you can choose to enter a Custom JDK. If you choose Custom JDK, you must manually install the JDK on all hosts and specify the Java Home path.
