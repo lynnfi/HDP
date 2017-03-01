@@ -39,10 +39,7 @@
 2. 根据提示完成安装（输入y进行操作和版本信息的确认）
  
  安装成功后应该有如下输出：
-| repo id | repo name | status |
-| :--- | :--- | :--- |
-| AMBARI.2.4.2.0-2.x | Ambari 2.x | 5 |
-
+ 
    ```
    Installing : postgresql-libs-8.4.20-3.el6_6.x86_64         1/4
    Installing : postgresql-8.4.20-3.el6_6.x86_64              2/4
