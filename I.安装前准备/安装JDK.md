@@ -24,3 +24,5 @@ _如果你需要使用Kerberos进行Hadoop的集群管理，你可能需要同�
 ###安装JCE
 _因为该版本会用到Kerberos进行Hadoop集群的安全保障，所以将会在此阶段配置JCE_
 
+1. 下载JCE安装包
+        - [JCE7](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)(For JDK1.7)
