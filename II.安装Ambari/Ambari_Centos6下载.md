@@ -14,6 +14,5 @@
         yum repolist
 
       你应该能够看到与下表相似的Ambari repository 列表，其中各版本信息与所需安装的Ambari版本有关。
-     
-|repo id |repo name|status|
+
         
