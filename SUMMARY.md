@@ -30,4 +30,7 @@
     * [1.1  RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
     * [1.2  RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
 
-    
+  * [2. 配置Ambari Server](II.安装Ambari/配置Ambari.md)
+    * [1.1  RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
+    * [1.2  RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
+
