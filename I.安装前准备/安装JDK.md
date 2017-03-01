@@ -31,4 +31,4 @@ _因为该版本会用到Kerberos进行Hadoop集群的安全保障，所以将�
 2. 将安装包解压到指定路径($JAVA_HOME/jre/lib/security/)
 
         
-        unzip -o -j -q jce_policy-8.zip -d /usr/jdk64/jdk1.8.0_60/jre/lib/security/
+        unzip -o -j -q jce_policy-8.zip -d $JAVA_HOME/jre/lib/security/
