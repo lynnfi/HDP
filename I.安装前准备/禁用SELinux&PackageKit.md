@@ -11,3 +11,5 @@
              
 2. 编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
 
+
+
