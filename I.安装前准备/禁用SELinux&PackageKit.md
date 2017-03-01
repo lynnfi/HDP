@@ -1,7 +1,12 @@
 ### 禁用SELinux和PackageKit
 
 1. 禁用selinux
+  - 在当前终端禁用SELinux
 
+    `setenforce 0`
+
+  - 永久禁用SELinux
+* 
    ```
    vim /etc/selinux/config
 
