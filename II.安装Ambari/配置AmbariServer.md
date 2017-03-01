@@ -22,8 +22,9 @@
     Path to JAVA_HOME: /usr/local/java/jdk1.8.0_121
     
     #进入数据库高级设置？（否）
-    这里如果选择是，将可以自定义数据库配置，默认为PostgreSql，用户名:ambari,密码:bigdata
     Enter advanced database configuration [y/n] (n)? 
+    这里如果选择是，将可以自定义数据库配置，默认为PostgreSql，用户名:ambari,密码:bigdata
+    
 
 
 
