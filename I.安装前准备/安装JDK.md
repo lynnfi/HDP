@@ -21,3 +21,6 @@ _如果你需要使用Kerberos进行Hadoop的集群管理，你可能需要同�
 *注：
 你可以先不去管Kerberos的事情，我们会有专门的一个版块来讲解配置Kerberos的事项，或者你可以先参考：[Hortonworks关于Kerberos的文档](http://docs.hortonworks.com/HDPDocuments/Ambari-2.4.2.0/bk_ambari-security/content/distribute_and_install_the_jce.html)
 
+###安装JCE
+_因为该版本会用到Kerberos进行Hadoop集群的安全保障，所以将会在此阶段配置JCE_
+

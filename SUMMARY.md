@@ -13,23 +13,20 @@
     * [3.6 内存需求](I.安装前准备/内存需求.md)
     * [3.7 安装包大小与节点](I.安装前准备/安装包大小与节点数.md)
     * [3.8 最大打开文件数设置  ](I.安装前准备/最大打开文件数设置.md)
-
   * [4.系统环境配置](系统环境配置.md)
     * [4.1 检查DNS和NSCD设置](I.安装前准备/检查DNS和NSCD设置.md)
       * [4.1.1 编辑host文件](I.安装前准备/编辑host文件.md)
       * [4.1.2 设置hostname](I.安装前准备/编辑hostname文件.md)
       * [4.1.3 设置network文件](I.安装前准备/设置network文件.md)
-    * [4.2 安装JDK](I.安装前准备/安装JDK.md)
+    * [4.2 安装JDK&JCE](I.安装前准备/安装JDK.md)
     * [4.3 ssh无密码登录](I.安装前准备/ssh无密码登录.md)
     * [4.4 ntp时间同步](I.安装前准备/ntp时间同步.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
-    * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
-    
-* II.[安装Ambari](安装Ambari.md)
+    * [4.6 禁用SELinux和PackageKit    ](I.安装前准备/禁用SELinux&PackageKit.md)
+* [II.安装Ambari](安装Ambari.md)
   * [1. 下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
     * [1.1 RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
     * [1.2 RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
-
   * [2. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
     * [2.1 Ambari Setup常用指令](II.安装Ambari/Setup常用指令.md)
 
