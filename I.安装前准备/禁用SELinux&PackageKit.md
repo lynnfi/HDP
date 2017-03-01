@@ -1,6 +1,6 @@
 ### 禁用SELinux和PackageKit
 
-1. 编辑/etc/selinux/config
+1. 禁用selinux
 
    ```
    vim /etc/selinux/config
@@ -9,9 +9,13 @@
    SELINUX=disabled
    ```
 
-2. 编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
+2. 禁用PackageKit
 
+  * 通常在centos和redhat中为开启
+  
   ```
+  编辑 /etc/yum/pluginconf.d/refresh-packagekit.conf
+
   vim /etc/yum/pluginconf.d/refresh-packagekit.conf
 
    #确认packagekit为禁用状态
