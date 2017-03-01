@@ -26,4 +26,5 @@
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
     
 * II.[安装Ambari](安装Ambari.md)
-
+  * [1.下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
+    * [1.1  RHEL/CentOS/Oracle Linux 6](II.安装Ambari/ RHEL/CentOS/Oracle Linux 6.md)
