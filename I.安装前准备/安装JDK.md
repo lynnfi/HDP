@@ -26,4 +26,9 @@ _因为该版本会用到Kerberos进行Hadoop集群的安全保障，所以将�
 
 1. 下载JCE安装包
         - [JCE7](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)(For JDK1.7)
-        - - [JCE8](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)(For JDK1.8)
+        - [JCE8](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)(For JDK1.8)
+
+2. 将安装包解压到指定路径($JAVA_HOME/jre/lib/security/)
+
+        
+        unzip -o -j -q jce_policy-8.zip -d /usr/jdk64/jdk1.8.0_60/jre/lib/security/
