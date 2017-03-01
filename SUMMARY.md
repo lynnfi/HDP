@@ -30,3 +30,4 @@
   * [2. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
     * [2.1 Ambari Setup常用指令](II.安装Ambari/Setup常用指令.md)
 
+* [III.安装、配置并部署HDP集群](HDP集群部署.md)
