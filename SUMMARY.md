@@ -25,7 +25,5 @@
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)    
     
-
-
 * II.[安装Ambari](安装Ambari.md)
 
