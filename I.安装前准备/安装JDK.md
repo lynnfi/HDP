@@ -1,5 +1,5 @@
 ##JDK安装
-_如果你需要使用Kerberos进行Hadoop的集群管理，你可能需要同时下载[JCE8](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)_
+_如果你需要使用Kerberos进行Hadoop的集群管理，你可能需要同时下载[JCE8]()_
 
 
 1. 下载jdk1.8安装包
@@ -26,3 +26,4 @@ _因为该版本会用到Kerberos进行Hadoop集群的安全保障，所以将�
 
 1. 下载JCE安装包
         - [JCE7](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)(For JDK1.7)
+        - - [JCE8](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)(For JDK1.8)
