@@ -5,7 +5,26 @@
 
 运行以下命令，按照提示进行配置操作。你也可以参考setup常用可选[指令](II.安装Ambari/Setup常用指令.md)：
 
-`ambari-server setup`
+    ambari-server setup
+    
+    #是否自定义用户运行Ambari守护进程（否）
+    Customize user account for ambari-server daemon [y/n] (n)? 
+    
+    #JDK版本选择，直接选择【3】，用户自定义JDK版本
+    Checking JDK...
+    [1] Oracle JDK 1.8 + Java Cryptography Extension (JCE) Policy Files 8
+    [2] Oracle JDK 1.7 + Java Cryptography Extension (JCE) Policy Files 7
+    [3] Custom JDK
+    ==============================================================================
+    Enter choice (1): 3
+    
+    #将本机的$JAVA_HOME路径设置过来，且要确保其他客户机的JAVA_HOME也是这个路径
+    Path to JAVA_HOME: /usr/local/java/jdk1.8.0_121
+    
+    #进入数据库高级设置？（否）
+    Enter advanced database configuration [y/n] (n)? 
+    
+
 
 配置提示：
 
