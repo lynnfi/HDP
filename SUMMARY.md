@@ -35,6 +35,11 @@
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
     * [8.1 为HDP集群命名](III.部署HDP集群/HDP集群命名.md)
     * [8.2 为HDP集群命名](III.部署HDP集群/.md)
+    
+    
+--
 
+* [IV.](HDP权限控制与安全保障.md)
+* [1. 安装Ranger](III.部署HDP集群/下载Ambari安装包.md)
     
 
