@@ -40,6 +40,6 @@
 --
 
 * [IV.](HDP权限控制与安全保障.md)
-* [1. 安装Ranger](III.部署HDP集群/下载Ambari安装包.md)
+* [1. 安装Ranger](IV.部署HDP集群/下载Ambari安装包.md)
     
 
