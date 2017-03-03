@@ -26,6 +26,7 @@
             
             
 * 创建Kerberos数据库
+
     - 使用 kdb5_util 创建Kerberos数据库
         
           kdb5_util create -s
