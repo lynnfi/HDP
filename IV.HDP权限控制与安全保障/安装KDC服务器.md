@@ -3,9 +3,16 @@
 * 安装KDC Server
 
     1. 安装最新版的KDC server
-        
+   ```     
+        #For RHEL/CentOS/Oracle Linux
             yum install krb5-server krb5-libs krb5-workstation
         
+       #For SLES
+            zypper install krb5 krb5-server krb5-client
+        
+        #For Ubuntu/Debian        
+            apt-get install krb5-kdc krb5-admin-server
+    ```
     2. 编辑配置文件
     
             vi /etc/krb5.conf
