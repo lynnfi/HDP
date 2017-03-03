@@ -36,7 +36,6 @@
   * [7. 登录并简单了解Ambari](III.部署HDP集群/下载Ambari安装包.md)
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
     * [8.1 为HDP集群命名](III.部署HDP集群/HDP集群命名.md)
-    * [8.2 为HDP集群命名](III.部署HDP集群/.md)
 
 ## HDP企业级应用
 
