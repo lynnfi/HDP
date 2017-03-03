@@ -41,5 +41,5 @@
 
 * [IV.HDP权限控制与安全保障](HDP权限控制与安全保障.md)
 * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
-    
+    * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
 
