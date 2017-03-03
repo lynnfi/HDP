@@ -62,7 +62,7 @@
         service krb5-admin-server restart  
     ```
     
-* 设置KDC服务开机启动    
+    - 设置KDC服务开机启动    
     ```
     #For RHEL/CentOS/Oracle Linux 6
         chkconfig krb5kdc on
