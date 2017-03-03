@@ -18,7 +18,7 @@
       * [4.1.1 编辑host文件](I.安装前准备/编辑host文件.md)
       * [4.1.2 设置hostname](I.安装前准备/编辑hostname文件.md)
       * [4.1.3 设置network文件](I.安装前准备/设置network文件.md)
-    * [4.2 安装JDK&JCE](I.安装前准备/安装JDK&JCE.md)
+    * [4.2 安装JDK&JCE](I.安装前准备/安装JDK与JCE.md)
     * [4.3 ssh无密码登录](I.安装前准备/ssh无密码登录.md)
     * [4.4 ntp时间同步](I.安装前准备/ntp时间同步.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
