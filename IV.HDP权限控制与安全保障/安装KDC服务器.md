@@ -35,14 +35,18 @@
 * 启动KDC服务
     - 启动KDC admin server
     ```
-    #For Centos6
+    #For RHEL/CentOS/Oracle Linux 6
         /etc/rc.d/init.d/krb5kdc start
         /etc/rc.d/init.d/kadmin start
         
-    #For Centos7
+    #For RHEL/CentOS/Oracle Linux 7
         systemctl start krb5kdc
         systemctl start kadmin
+        
     #For Ubuntu/Debian
         service krb5-kdc restart
         service krb5-admin-server restart  
     ```
+    
+* 设置KDC服务开机启动    
+    
