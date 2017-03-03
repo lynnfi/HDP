@@ -9,3 +9,9 @@
     vi /etc/krb5.conf
     
 3.修改[realms]选项中的相关配之信息
+
+    [realms]
+     EXAMPLE.COM = {
+       kdc = 10.194.186.39
+       admin_server = hdp39
+    }
