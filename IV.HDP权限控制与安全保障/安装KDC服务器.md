@@ -44,8 +44,5 @@
         systemctl start kadmin
     #For Ubuntu/Debian
         service krb5-kdc restart
-        service krb5-admin-server restart
-
-
-     
+        service krb5-admin-server restart  
     ```
