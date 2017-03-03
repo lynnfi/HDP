@@ -26,7 +26,7 @@
                kdc = 10.194.186.39
                admin_server = hdp39
             }
-    4. 修改配置文件中的[libdefaults]信息
+    4. 确认配置文件中的[libdefaults]信息
     
             #由于一些应用需要刷新tickets(如HUE)，所以进行如下设置：
             renew_lifetime = 7d
