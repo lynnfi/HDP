@@ -23,3 +23,9 @@
     
             #由于一些应用需要刷新tickets(如HUE)，所以进行如下设置：
             renew_lifetime = 7d
+            
+            
+* 创建Kerberos数据库
+    - 使用 kdb5_util 创建Kerberos数据库
+        
+          kdb5_util create -s
