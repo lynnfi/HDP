@@ -39,8 +39,6 @@
 9. Ambari 将会在所有的节点上安装Kerberos clients并在"testing"步骤中测试Ambari是否可以创建principal，生成keytab以及分发keytab
 
 10. 确认安装信息，可以选择下载CSV文件
-[a](/IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
-
 
 11. 继续安装操作，一路Next,然后Ambari会完成整个集群的Kerberied过程；（要是失败了记得多Retry几次，有时候脚本跑起来并不是很稳定~）
 
