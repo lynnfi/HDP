@@ -22,7 +22,7 @@
             #将kdc与admin_server修改为主机地址(FQDN)
             
             [realms]
-             EXAMPLE.COM = {
+             BMSOFT.COM = {
                kdc = 10.194.186.39
                admin_server = hdp39
             }
