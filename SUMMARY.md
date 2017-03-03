@@ -26,7 +26,7 @@
     * [4.4 ntp时间同步](I.安装前准备/ntp时间同步.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)
-* [II.安装Ambari](安装Ambari.md)
+* [II.安装Ambari](II.安装Ambari/安装Ambari.md)
   * [5. 下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
     * [5.1 RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
     * [5.2 RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
