@@ -40,7 +40,7 @@
 
 10. 确认安装信息，可以选择下载CSV文件
 
-11. 继续安装操作，一路Next,然后Ambari会完成整个集群的Kerberied过程；
+11. 继续安装操作，一路Next,然后Ambari会完成整个集群的Kerberied过程；（要是失败了记得多Retry几次，有时候脚本跑起来并不是很稳定~）
 
 12. 最后Complete！（我看了一下手动部署Kerberos的过程，只能说感谢有Ambari，赶紧去github上给它加了个星）
 
