@@ -13,7 +13,19 @@
 6. 填写KDC相关配置信息(这里假设你已经按照我们之前的步骤安装了KDC)
    
      * **KDC**
-       - KDC Host   ->10.194.186.39
-       - Realm name  ->BMSOFT.COM
-       - Domains field,
+       - KDC Host，可填写ip或者FQDN，端口号可填可不填
+        
+        `10.194.186.39`
+       - Realm name，之前设置的域名
+         
+         `BMSOFT.COM`
+       - (选填)Domains
+       
+         `bmsoft.com,bmsoft.com`
      * **Kadmin**
+       -  Kadmin Host,可填写ip或者FQDN，端口号可填可不填
+       
+           `hdp39`
+       - Admin principal & password，安装KDC服务器时创建的规则
+       
+           Admin:`admin` &  PassWord:`bmsoft`
