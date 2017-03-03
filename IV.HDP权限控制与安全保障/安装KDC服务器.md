@@ -64,21 +64,15 @@
     
 * 设置KDC服务开机启动    
     ```
-    RHEL/CentOS/Oracle Linux 6
-
+    #For RHEL/CentOS/Oracle Linux 6
         chkconfig krb5kdc on
-        
         chkconfig kadmin on
         
-        RHEL/CentOS/Oracle Linux 7
-        
+    #For RHEL/CentOS/Oracle Linux 7
         systemctl enable krb5kdc
-        
         systemctl enable kadmin
         
-        SLES
-        
+    #For SLES
         chkconfig rckrb5kdc on
-        
         chkconfig rckadmind on
     ```
