@@ -29,3 +29,11 @@
        - Admin principal & password，安装KDC服务器时创建的用户和密码
        
            Admin:`admin` &  PassWord:`bmsoft`
+           
+       - （选填）Save Admin Credentials,对证书进行加密
+           
+7. 根据你的环境进行Kerberos高级配置
+
+8. 确认安装
+
+9. Ambari 将会在所有的节点上安装Kerberos clients并在"testing"步骤中测试Ambari是否可以创建principal，生成keytab以及分发keytab.
