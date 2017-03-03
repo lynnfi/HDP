@@ -28,9 +28,16 @@
 * 创建Kerberos数据库
 
     - 使用 kdb5_util 创建Kerberos数据库
+    ```
+    #For RHEL/CentOS/Oracle Linux
+        kdb5_util create -s
         
-          kdb5_util create -s
-          
+    #For SLES
+        kdb5_util create -s
+        
+    #For Ubuntu/Debian
+        krb5_newrealm
+    ```
           
 * 启动KDC服务
     - 启动KDC admin server
