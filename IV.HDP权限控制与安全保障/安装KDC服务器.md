@@ -30,3 +30,10 @@
     - 使用 kdb5_util 创建Kerberos数据库
         
           kdb5_util create -s
+          
+          
+* 启动KDC服务
+    - 启动KDC admin server
+    
+        #Centos
+        /etc/rc.d/init.d/krb5kdc start
