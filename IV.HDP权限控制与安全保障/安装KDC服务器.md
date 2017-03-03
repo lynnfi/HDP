@@ -78,10 +78,12 @@
     ```
     
 * 创建Kerberos管理员
-    - 创建一个用户实体
+   
+    1. 创建一个用户实体
+        
+        `kadmin.local -q "addprinc admin/admin"`
     
-            kadmin.local -q "addprinc admin/admin"
-    - 确认KDC ACL权限
+    2. 查看KDC ACL权限文件
 
         ```
        #For RHEL/CentOS/Oracle Linux
@@ -94,3 +96,11 @@
             vi /etc/krb5kdc/kadm5.acl
 
     ```
+    3.确保kadm5.acl文件中，有你刚才定义的[realm]信息
+    ```
+    */admin@EXAMPLE.COM     *
+    */admin@BMSOFT.COM   *
+    ```
+    注：其中`*/admin@BMSOFT.COM   *`即为需要添加的信息
+    
+    
