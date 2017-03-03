@@ -78,4 +78,19 @@
     ```
     
 * 创建Kerberos管理员
+    - 创建一个用户实体
+    
+            kadmin.local -q "addprinc admin/admin"
+    - 确认KDC ACL权限
 
+        ```
+       #ForRHEL/CentOS/Oracle Linux
+            vi /var/kerberos/krb5kdc/kadm5.acl
+            
+       #For  SLES
+            vi /var/lib/kerberos/krb5kdc/kadm5.acl
+            
+       #For  Ubuntu/Debian       
+            vi /etc/krb5kdc/kadm5.acl
+
+    ```
