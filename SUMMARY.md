@@ -1,6 +1,6 @@
 # Summary
 
-* [HDP安装指南](README.md)
+* [本书简介](README.md)
 ##HDP入门
 * [I.安装前准备](i.安装前准备.md)
   * [1. 基本概念](I.安装前准备/基本概念.md)
