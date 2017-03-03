@@ -1,5 +1,6 @@
 # Summary
 
+##HDP入门
 * [HDP安装指南](README.md)
 * [I.安装前准备](i.安装前准备.md)
   * [1. 基本概念](I.安装前准备/基本概念.md)
@@ -29,15 +30,16 @@
     * [5.2 RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
   * [6. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
     * [6.1 Ambari Setup常用指令](II.安装Ambari/Setup常用指令.md)
-
 * [III.安装、配置并部署HDP集群](HDP集群部署.md)
   * [7. 登录并简单了解Ambari](III.部署HDP集群/下载Ambari安装包.md)
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
     * [8.1 为HDP集群命名](III.部署HDP集群/HDP集群命名.md)
     * [8.2 为HDP集群命名](III.部署HDP集群/.md)
----
+
+## HDP企业级应用
 
 * [IV.HDP权限控制与安全保障](HDP权限控制与安全保障.md)
 * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
-    * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
-    * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
+  * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
+  * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
+
