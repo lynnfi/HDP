@@ -84,13 +84,13 @@
     - 确认KDC ACL权限
 
         ```
-       #ForRHEL/CentOS/Oracle Linux
+       #For RHEL/CentOS/Oracle Linux
             vi /var/kerberos/krb5kdc/kadm5.acl
             
-       #For  SLES
+       #For SLES
             vi /var/lib/kerberos/krb5kdc/kadm5.acl
             
-       #For  Ubuntu/Debian       
+       #For Ubuntu/Debian       
             vi /etc/krb5kdc/kadm5.acl
 
     ```
