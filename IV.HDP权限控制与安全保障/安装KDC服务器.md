@@ -76,3 +76,6 @@
         chkconfig rckrb5kdc on
         chkconfig rckadmind on
     ```
+    
+* 创建Kerberos管理员
+
