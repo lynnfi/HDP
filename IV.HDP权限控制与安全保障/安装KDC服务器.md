@@ -8,7 +8,7 @@
 
     vi /etc/krb5.conf
     
-3.修改[realms]选项中的相关配之信息
+3.修改[realms]选项中的相关配置信息
 
     [realms]
      EXAMPLE.COM = {
