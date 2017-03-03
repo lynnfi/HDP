@@ -36,4 +36,11 @@
 
 8. 确认安装
 
-9. Ambari 将会在所有的节点上安装Kerberos clients并在"testing"步骤中测试Ambari是否可以创建principal，生成keytab以及分发keytab.
+9. Ambari 将会在所有的节点上安装Kerberos clients并在"testing"步骤中测试Ambari是否可以创建principal，生成keytab以及分发keytab
+
+10. 确认安装信息，可以选择下载CSV文件
+
+11. 继续安装操作，一路Next,然后Ambari会完成整个集群的Kerberied过程；
+
+12. 最后Complete！（我看了一下手动部署Kerberos的过程，只能说感谢有Ambari，赶紧去github上给它加了个星）
+
