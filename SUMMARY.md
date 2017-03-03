@@ -1,4 +1,4 @@
-# Summary
+I.安装前准备/安装JDK&JCE.md# Summary
 
 * [HDP安装指南](README.md)
 * [I.安装前准备](i.安装前准备.md)
