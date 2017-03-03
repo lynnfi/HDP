@@ -1,13 +1,15 @@
 
 
 
-# HDP安装手册
+###本书简介
 
 `创建时间：2017-02-28 15:48:02`
 
 `作者：陈一木`
 
 `参考文档：`[`HDP官方技术文档`](http://docs.hortonworks.com/HDPDocuments/Ambari-2.4.2.0/bk_ambari-installation/content/index.html)
+
+
 
 本书主要介绍HDP的相关知识，暂时分为两大块:
     1. 基本入门知识，包括安装前准备、安装时操作、安装后验证、以及一些小的Tips。希望能够对刚接触HDP的你有所帮助。
