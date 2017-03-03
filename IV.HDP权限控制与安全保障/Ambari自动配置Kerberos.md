@@ -44,3 +44,4 @@
 
 12. 最后Complete！（我看了一下手动部署Kerberos的过程，只能说感谢有Ambari，赶紧去github上给它加了个星）
 
+  ![](/assets/KerberosComplete.jpeg)
