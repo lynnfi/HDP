@@ -34,7 +34,7 @@
             
 * 创建Kerberos数据库
 
-    - 使用 kdb5_util 创建Kerberos数据库
+    - 使用 kdb5_util 创建Kerberos数据库(*注：会提醒你输入密码,要记好密码)
     ```
     #For RHEL/CentOS/Oracle Linux
         kdb5_util create -s
