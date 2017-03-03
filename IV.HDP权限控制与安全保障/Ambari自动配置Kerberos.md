@@ -26,6 +26,6 @@
        -  Kadmin Host,可填写ip或者FQDN，端口号可填可不填
        
            `hdp39`
-       - Admin principal & password，安装KDC服务器时创建的规则
+       - Admin principal & password，安装KDC服务器时创建的用户和密码
        
            Admin:`admin` &  PassWord:`bmsoft`
