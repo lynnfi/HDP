@@ -103,4 +103,19 @@
     ```
     注：其中`*/admin@BMSOFT.COM   *`即为需要添加的信息
     
+    4. 重启kadmin进程
+    ```
+    #For RHEL/CentOS/Oracle Linux 6
+        /etc/rc.d/init.d/kadmin restart
+
+    #For RHEL/CentOS/Oracle Linux 7
+        systemctl restart kadmin
+
+    #For SLES
+        rckadmind restart
+
+    #For Ubuntu/Debian
+        service krb5-admin-server restart
+    ```
+    
     
