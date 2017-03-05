@@ -52,7 +52,7 @@
 ## HDP使用指南
 
 * [V.Ranger使用指南](V.Ranger使用指南/Ranger使用指南.md)
-  * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
+  * [1. Kerberos安装与部署](V.Ranger使用指南/Ranger各组件数据权限管理.md)
   
   
 
