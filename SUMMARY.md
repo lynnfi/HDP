@@ -39,11 +39,11 @@
 ## HDP企业级应用
 
 * [IV.HDP权限控制与安全保障](IV.HDP权限控制与安全保障/HDP权限控制与安全保障.md)
-* [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
-  * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
-  * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
-* [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
-  * [2.1 Ranger安装准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
+  * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
+    * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
+    * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
+  * [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
+    * [2.1 Ranger安装准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
   
   
   
@@ -51,6 +51,7 @@
   
 ## HDP使用指南
 
+* [V.Ranger使用指南](V.Ranger使用指南/.md)
 
   
   
