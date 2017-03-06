@@ -9,9 +9,6 @@ ambari-server setup-security
 During the process of enabling Kerberos via Ambari's web-based UI, the user is prompted for this information and has the option to store the credentials in either the_**temporary**_or_**persisted**_credential store. The_**temporary**_credential store is a keystore in memory where each entry is removed after 90 minutes \(from initial creation\), when Ambari is restarted, or by user request. The_**persisted**_credential store is a keystore stored on disk where each entry is removed only by user request.**The option to store a credential in the**_**persisted**_**store is only available if Ambari's credential store has been setup.**
 
 
-
-
-
 **Creating Ambari's Credential Store**
 
 To set up Ambari's credential store, the following commands must be invoked from the Ambari server host's command line:
