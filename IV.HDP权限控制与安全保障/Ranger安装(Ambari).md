@@ -31,9 +31,11 @@
 
 6. 一路Next没有什么大问题了
 
-7. 完成后重启被影响到的组件
-![](/assets/restartCompents.png)
+7. 完成后重启被影响到的组件  
+   ![](/assets/restartCompents.png)
 
-8. 登录Ranger
-![](/assets/rangerHome.png)
+8. 登录Ranger\(http://10.194.186.41:6080\)  
+   ![](/assets/rangerHome.png)
+
+
 
