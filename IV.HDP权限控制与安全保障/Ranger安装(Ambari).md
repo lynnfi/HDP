@@ -18,10 +18,12 @@
    ![](/assets/rangerPostgre.png)
 
 4. Ranger-Audit所需设置
+
    ```
    Audit to Solr>>SolorCloud
    #下面会自动填上，其实就是zookeeper的信息   
    ```
+
    ![](/assets/rangerAudit.png)
 
 1. 输入Kerberos的principle验证（一定要注意principle信息必须完整）  
