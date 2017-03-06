@@ -20,7 +20,6 @@ SolrCloud Prerequisites
 
   * SolrCloud supports replication and sharding. It is highly recommended that you use SolrCloud with at least two Solr nodes running on different servers with replication enabled.
 
-
   * SolrCloud requires Apache Zookeeper.
 
   * SolrCloud with Kerberos requires Apache Zookeeper and MIT Kerberos.
