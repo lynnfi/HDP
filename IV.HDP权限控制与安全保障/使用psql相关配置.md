@@ -24,3 +24,14 @@
 5. 创建所需数据库
 
         CREATE DATABASE ranger OWNER rangerdba;
+        
+6. 设置远程访问权限
+
+        vi  /var/lib/pgsql/data/pg_hba.conf
+        
+        ####在文件结尾处添加    
+        local   all   postgres,rangerdba                       trust
+        
+        host   all   postgres,rangerdba          0.0.0.0/0                   trust
+        
+        host   all   postgres,rangerdba           ::/0                   trust
