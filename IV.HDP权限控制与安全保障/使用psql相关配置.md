@@ -1,0 +1,26 @@
+####使用PostgreSQL的相关配置
+
+因为Ranger的安装比较复杂，在使用到的关系型数据库上面，我们选择之前用作Ambari默认数据库的postgre；
+以下是关于进行Ranger安装前的一些必要配置：
+
+1. 确认postgres正在运行
+
+        ps -eaf | grep ambari | grep postgres
+
+2. 确认postgres的运行端口
+
+        netstat -anp | grep ${pid}
+        
+3. 进入psql命令行
+        
+        sudo -u postgres psql -U postgres
+        
+4. 创建所需用户
+
+        Create user rangerdba；
+        ##设置密码
+        ALTER USER rangerdba WITH PASSWORD "bmsoft"
+        
+5. 创建所需数据库
+
+        CREATE DATABASE ranger OWNER rangerdba;
