@@ -63,12 +63,12 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
 1. 运行以下命令：
 
   ```
- cd $HOME
-  git clone https://github.com/apache/incubator-ranger.git
-  cd incubator-ranger/security-admin/contrib/solr_for_audit_setup
+  yum install lucidworks-hdpsearch
   
+  注:solr将会被安装到 /opt/lucidworks-hdpsearch/solr
   ```
-2. For configuring SolrCloud, you need to do the following:
+  
+2. 设置solrcloud：
  ``` 
   vi install.properties
   
