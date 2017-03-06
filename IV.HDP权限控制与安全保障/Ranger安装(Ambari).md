@@ -27,7 +27,7 @@
 5. 输入Kerberos的principle验证（一定要注意principle信息必须完整）  
    ![](/assets/ranger_kerberos.png)
 
-6. 一路next没有什么大问题了
+6. 一路Next没有什么大问题了
 
 
 
