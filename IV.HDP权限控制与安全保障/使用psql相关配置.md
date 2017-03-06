@@ -25,7 +25,7 @@
 
         CREATE DATABASE ranger OWNER rangerdba;
         
-6. 设置访问权限
+6. 设置远程连接权限
 
         vi  /var/lib/pgsql/data/postgresql.conf
         
