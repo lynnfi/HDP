@@ -1,8 +1,8 @@
 ### Ranger安装
 
-1. 登录Ambari，Dashboard&gt;&gt;Actions&gt;&gt;Add Service
+1. 登录Ambari，Dashboard>>Actions>>Add Service
 
 ![](/assets/import.png)
 
-
+2. 
 
