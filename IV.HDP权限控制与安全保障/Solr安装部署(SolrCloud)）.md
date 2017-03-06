@@ -71,6 +71,7 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
 2. 设置solrcloud：
  ``` 
   vi install.properties
+  
   #设置JAVA_HOME
     JAVA_HOME=/usr/local/java/jdk1.8.0_121
   #NOTE:设置SOLR_INSTALL为false
@@ -86,7 +87,15 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
   #设置SOLR_MAX_MEM
     SOLR_MAX_MEM=1g
   ```
-3. Add Ranger Audit config to ZooKeeper: /opt/solr/ranger_audit_server/scripts/add_ranger_audits_conf_to_zk.sh
-4. Start Solr: /opt/solr/ranger_audit_server/scripts/start_solr.sh
+3. 运行./setup.sh
+    
+        ./setup.sh
+  
+ 
+4. 每个节点仅运行一次
+    
+        /opt/solr/ranger_audit_server/scripts/add_ranger_audits_conf_to_zk.sh
+        
+        
 5. Create Ranger Audit collection: /opt/solr/ranger_audit_server/scripts/create_ranger_audits_collection.sh
 
