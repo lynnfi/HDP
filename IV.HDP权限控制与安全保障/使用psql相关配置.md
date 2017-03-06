@@ -35,7 +35,7 @@
                                         # comma-separated list of addresses;
                                         # defaults to 'localhost', '*' = all
 
-7.设置数据库访问权限
+7. 设置数据库访问权限
 
         vi  /var/lib/pgsql/data/pg_hba.conf
         
@@ -50,7 +50,7 @@
         
         sudo -u postgres /usr/bin/pg_ctl -D /var/lib/pgsql/data reload
 
-9.确认postgresql的JDBC连接所需jar包
+9. 确认postgresql的JDBC连接所需jar包
         ```
         yum install postgresql-jdbc*
         
