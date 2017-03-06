@@ -36,6 +36,5 @@
 ![](/assets/restartCompents.png)
 
 8. 登录Ranger
-
 ![](/assets/rangerHome.png)
 
