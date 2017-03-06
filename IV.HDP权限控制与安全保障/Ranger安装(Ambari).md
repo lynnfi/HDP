@@ -2,7 +2,7 @@
 
 1. 登录Ambari，Dashboard>>Actions>>Add Service
 
-![](/assets/import.png)
+![](/assets/findRanger.png)
 
 2. 
 
