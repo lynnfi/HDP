@@ -36,7 +36,7 @@
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
     * [8.1 为HDP集群命名](III.部署HDP集群/HDP集群命名.md)
 
-## HDP企业级应用
+## HDP企业级特性
 
 * [IV.HDP权限控制与安全保障](IV.HDP权限控制与安全保障/HDP权限控制与安全保障.md)
   * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
