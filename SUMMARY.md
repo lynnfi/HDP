@@ -46,6 +46,7 @@
   * [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
     * [2.1 Ranger安装前准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
       * [2.1.1 Solr安装部署(SolrCloud)](IV.HDP权限控制与安全保障/Solr安装部署(SolrCloud)）.md)
+      * [2.1.2 使用psql相关配置](IV.HDP权限控制与安全保障/使用psql相关配置.md)
       
 ## HDP使用指南
 
