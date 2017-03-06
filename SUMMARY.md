@@ -2,7 +2,7 @@
 
 * [本书简介](README.md)
 
-##HDP入门
+## HDP入门
 
 * [I.安装前准备](I.安装前准备/I.安装前准备.md)
   * [1. 基本概念](I.安装前准备/基本概念.md)
@@ -43,23 +43,15 @@
     * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
     * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
   * [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
-    * [2.1 Ranger安装准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
-  
-  
-  
-  
-  
+    * [2.1 Ranger安装前准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
+
 ## HDP使用指南
 
 * [V.Ranger使用指南](V.Ranger使用指南/Ranger使用指南.md)
   * [1. Ranger对各组件数据权限管理](V.Ranger使用指南/Ranger对各组件的数据权限管理.md)
     * [1.1 HDFS数据权限管理](IV.HDP权限控制与安全保障/安装KDC服务器.md)
 
-  
-
 ## HDP开发指南
 
+## END
 
-
-  
-##END  
