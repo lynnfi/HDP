@@ -90,12 +90,14 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
 3. 运行./setup.sh
     
         ./setup.sh
-  
- 
-4. 每个节点仅运行一次
+4. 启动Solr
+    
+         /opt/solr/ranger_audit_server/scripts/start_solr.sh 
+   
+5. 每个节点仅运行一次，用来对zookeeper进行配置
     
         /opt/solr/ranger_audit_server/scripts/add_ranger_audits_conf_to_zk.sh
-        
-        
-5. Create Ranger Audit collection: /opt/solr/ranger_audit_server/scripts/create_ranger_audits_collection.sh
-
+                
+6. 访问Solr页面
+  
+        http:<solr_host>:8886/solr 
