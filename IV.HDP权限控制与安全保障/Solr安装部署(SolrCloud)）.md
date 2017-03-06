@@ -70,7 +70,7 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
   ```
 2. For configuring SolrCloud, you need to do the following:
  ``` 
-  install.properties
+  vi install.properties
   
   ```
 3. Add Ranger Audit config to ZooKeeper: /opt/solr/ranger_audit_server/scripts/add_ranger_audits_conf_to_zk.sh
