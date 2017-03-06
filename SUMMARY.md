@@ -44,7 +44,7 @@
     * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
   * [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
     * [2.1 Ranger安装前准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
-
+      * [2.1.1 Ranger安装前准备](IV.HDP权限控制与安全保障/Solr的安装（solrCloud）.md)
 ## HDP使用指南
 
 * [V.Ranger使用指南](V.Ranger使用指南/Ranger使用指南.md)
