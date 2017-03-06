@@ -2,8 +2,7 @@
 
 * 配置需求
 
-
-  Solr Prerequisites
+**Solr Prerequisites**
 
   * Ranger supports Apache Solr 5.2 or higher.
 
@@ -16,7 +15,7 @@
   * 32 GB RAM.
 
 
-SolrCloud Prerequisites
+**SolrCloud Prerequisites**
 
   * SolrCloud supports replication and sharding. It is highly recommended that you use SolrCloud with at least two Solr nodes running on different servers with replication enabled.
 
