@@ -25,16 +25,15 @@
 
         CREATE DATABASE ranger OWNER rangerdba;
         
-6. 设置远程访问权限
+6. 设置访问权限
 
-        vi  /var/lib/pgsql/data/pg_hba.conf
+        vi  /var/lib/pgsql/data/postgresql.conf
         
-        ####在文件结尾处添加    
-        local   all   postgres,rangerdba                       trust
-        
-        host   all   postgres,rangerdba          0.0.0.0/0                   trust
-        
-        host   all   postgres,rangerdba           ::/0                   trust
+        ####在连接设置处修改允许接入的客户端，*为所有连接   
+        # - Connection Settings -
+        listen_addresses = '*'        # what IP address(es) to listen on;
+                                        # comma-separated list of addresses;
+                                        # defaults to 'localhost', '*' = all
 
 7.设置数据库访问权限
 
