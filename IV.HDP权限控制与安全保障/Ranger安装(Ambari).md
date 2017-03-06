@@ -7,7 +7,8 @@
    ![](/assets/rangerEnsure.png)
 
 3. 配置Ranger安装所需数据库信息
-   ```
+  
+    ```
    Ranger DB name: ranger
    Ranger DB host: hdp39
    Ranger DB username: rangerdba
