@@ -27,7 +27,6 @@
 #### Installation and Configuration Steps
 
 
-
 1. Run the following commands:
 
    ```
@@ -60,5 +59,21 @@ You can download the Solr package from[Apache Solr Downloads](http://lucene.apac
 | SOLR\_DOWNLOAD\_URL | [http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz](http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz) | It is recommended that you use one for Apache mirror sitess to download the Solr package. You can choose a mirror site at[http://lucene.apache.org/solr/mirrors-solr-latest-redir.html](http://lucene.apache.org/solr/mirrors-solr-latest-redir.html) |
 | SOLR\_INSTALL\_FOLDER | /opt/solr | The Solr install folder. |
 
+####安装部署
+1. 运行以下命令：
 
+  ```
+ cd $HOME
+  git clone https://github.com/apache/incubator-ranger.git
+  cd incubator-ranger/security-admin/contrib/solr_for_audit_setup
+  
+  ```
+2. For configuring SolrCloud, you need to do the following:
+ ``` 
+  install.properties
+  
+  ```
+3. Add Ranger Audit config to ZooKeeper: /opt/solr/ranger_audit_server/scripts/add_ranger_audits_conf_to_zk.sh
+4. Start Solr: /opt/solr/ranger_audit_server/scripts/start_solr.sh
+5. Create Ranger Audit collection: /opt/solr/ranger_audit_server/scripts/create_ranger_audits_collection.sh
 
