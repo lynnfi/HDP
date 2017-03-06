@@ -46,3 +46,26 @@
         
         host   all   postgres,rangerdba           ::/0                   trust
 
+8. 刷新Postgres数据库
+        
+        sudo -u postgres /usr/bin/pg_ctl -D /var/lib/pgsql/data reload
+
+9.确认postgresql的JDBC连接所需jar包
+        ```
+        yum install postgresql-jdbc*
+        
+        #确认已经安装好
+        ls /usr/share/java/postgresql-jdbc.jar
+        
+        #修改文件权限
+        chmod 644 /usr/share/java/postgresql-jdbc.jar
+        
+        #Ambari连接设置     
+        ambari-server setup --jdbc-db=postgres --jdbc-driver=/usr/share/java/postgresql-jdbc.jar
+        
+        #修改HADOOP配置信息
+        export HADOOP_CLASSPATH=${HADOOP_CLASSPATH}:${JAVA_JDBC_LIBS}:/connector jar path
+        
+        ```
+
+
