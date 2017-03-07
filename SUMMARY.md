@@ -46,6 +46,7 @@
       * [2.1.2 PostgreSQL相关配置](IV.HDP权限控制与安全保障/使用psql相关配置.md)
     * [2.2 Ranger安装(Ambari)](IV.HDP权限控制与安全保障/Ranger安装(Ambari).md)
     * [2.3 启用个组件的Ranger插件(Ambari)](IV.HDP权限控制与安全保障/启用个组件的Ranger插件.md)
+
 ## HDP产品描述
 
 * [V.用户与数据权限管理指南](V.Ranger使用指南/Ranger使用指南.md)
@@ -53,7 +54,7 @@
     * [1.1 HDFS数据权限管理](IV.HDP权限控制与安全保障/安装KDC服务器.md)
   * [2. Yarn实现多租户管理](V.用户与数据权限管理指南/Yarn实现多租户管理.md)
 
-## HDP开发指南
+## HDP应用开发指南
 
 
 
