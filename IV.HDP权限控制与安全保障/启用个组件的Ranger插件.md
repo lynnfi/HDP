@@ -3,7 +3,7 @@
 1. Ranger工作原理
    ![](/assets/Ranger_Works.png)
 
-2.
+2.Ranger组件介绍
   
  |Component|    Description|  
  |  :---|:----|  
