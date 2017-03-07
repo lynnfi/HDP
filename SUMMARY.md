@@ -52,7 +52,7 @@
 ## HDP使用指南
 
 * [V.用户与数据权限管理指南](V.Ranger使用指南/Ranger使用指南.md)
-  * [1. Ranger对各组件数据权限管理](V.Ranger使用指南/Ranger对各组件的数据权限管理.md)
+  * [1. Ranger对各组件数据权限管理](V.用户与数据权限管理指南/Ranger对各组件的数据权限管理.md)
     * [1.1 HDFS数据权限管理](IV.HDP权限控制与安全保障/安装KDC服务器.md)
   * [2. Yarn实现多租户管理](V.Ranger使用指南/Ranger对各组件的数据权限管理.md)
 
