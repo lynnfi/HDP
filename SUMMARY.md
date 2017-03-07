@@ -2,7 +2,7 @@
 
 * [本书简介](README.md)
 
-## HDP入门
+## HDP安装指南
 
 * [I.安装前准备](I.安装前准备/I.安装前准备.md)
   * [1. 基本概念](I.安装前准备/基本概念.md)
@@ -35,9 +35,6 @@
   * [7. 登录并简单了解Ambari](III.部署HDP集群/下载Ambari安装包.md)
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
     * [8.1 为HDP集群命名](III.部署HDP集群/HDP集群命名.md)
-
-## HDP企业级特性
-
 * [IV.HDP权限控制与安全保障](IV.HDP权限控制与安全保障/HDP权限控制与安全保障.md)
   * [1. Kerberos安装与部署](IV.HDP权限控制与安全保障/Kerberos安装与部署.md)
     * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
@@ -49,7 +46,7 @@
       * [2.1.2 PostgreSQL相关配置](IV.HDP权限控制与安全保障/使用psql相关配置.md)
     * [2.2 Ranger安装(Ambari)](IV.HDP权限控制与安全保障/Ranger安装(Ambari).md)
 
-## HDP使用指南
+## HDP产品描述
 
 * [V.用户与数据权限管理指南](V.Ranger使用指南/Ranger使用指南.md)
   * [1. Ranger对各组件数据权限管理](V.用户与数据权限管理指南/Ranger对各组件的数据权限管理.md)
