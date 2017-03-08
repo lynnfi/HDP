@@ -40,7 +40,7 @@
     * [1.1 安装KDC服务器](IV.HDP权限控制与安全保障/安装KDC服务器.md)
     * [1.2 使用Ambari自动配置Kerberos](IV.HDP权限控制与安全保障/Ambari自动配置Kerberos.md)
     * [1.3 配置Ambari管理Kerberos鉴权](IV.HDP权限控制与安全保障/配置Ambari管理Kerberos鉴权.md)
-    * [1.3 配置ticket有效时间](IV.HDP权限控制与安全保障/配置ticket有效时间.md)    
+    * [1.4 配置ticket有效时间](IV.HDP权限控制与安全保障/配置ticket有效时间.md)    
   * [2. Ranger的安装与部署](IV.HDP权限控制与安全保障/Ranger安装与部署.md)
     * [2.1 Ranger安装前准备](IV.HDP权限控制与安全保障/Ranger安装前准备.md)
       * [2.1.1 Solr安装部署\(SolrCloud\)](IV.HDP权限控制与安全保障/Solr安装部署\(SolrCloud\)）.md)
