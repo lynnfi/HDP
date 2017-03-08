@@ -56,7 +56,9 @@
   * [2. Yarn实现多租户管理](V.用户与数据权限管理指南/Yarn实现多租户管理.md)
 
 ## HDP应用开发指南
-* [VI.Hive开发指南](VI.指南/Ranger使用指南.md)
+* [VI.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
+  * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
+
 
 ## END
 
