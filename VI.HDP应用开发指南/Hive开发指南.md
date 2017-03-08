@@ -4,6 +4,7 @@
 1. 初始化kerberos的ticket（如果不进行初始化，将不能够连接到Hiveserver，由于我们的kerberos才用的是keytab的认证方式，所以密码认证并不可行！）
 
         kinit -k -t /etc/security/keytabs/hive.service.keytab  hive/hdp40@BMSOFT.COM
+        
 2. 查看是否初始化成功
 ```
 
