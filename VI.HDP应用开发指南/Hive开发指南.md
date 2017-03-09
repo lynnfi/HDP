@@ -21,10 +21,8 @@
 ```
 
 3. 连接beeline
-
-```       
+```
     $ > beeline
-              !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver
-
+         !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver            
 ```
 
