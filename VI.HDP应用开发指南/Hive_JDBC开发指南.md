@@ -142,5 +142,5 @@ public class HiveSimple {
             System.out.println("!!!!!!END!!!!!!!!");
         }
     }
-}
+ }
 ```
