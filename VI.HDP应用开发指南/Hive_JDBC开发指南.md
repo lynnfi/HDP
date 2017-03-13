@@ -92,7 +92,6 @@
     private static String sql = "";
     private static ResultSet res;
 
-
     public static void main(String[] args) {
 		org.apache.hadoop.conf.Configuration conf = new  org.apache.hadoop.conf.Configuration();
         conf.set("hadoop.security.authentication", "Kerberos");
