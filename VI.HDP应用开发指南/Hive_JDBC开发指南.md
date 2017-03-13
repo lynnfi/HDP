@@ -64,29 +64,26 @@
 
 * 示例程序HiveSimple.java
 ```
-package com.bmsoft.hive;
-
-/**
- * Created by chentao on 10/03/2017.
- */
-import org.apache.hadoop.security.UserGroupInformation;
-import org.apache.hive.jdbc.HiveDriver;
-
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import org.apache.log4j.Logger;
-/**
- * 2017-03-08 20:07:50
- * @author chentao
- *简单的jdbc连接hive实例（已开启kerberos服务）
- */
-
-
-public class HiveSimple {
+    package com.bmsoft.hive;
+    /**
+     * Created by chentao on 10/03/2017.
+     */
+    import org.apache.hadoop.security.UserGroupInformation;
+    import org.apache.hive.jdbc.HiveDriver;
+    
+    import java.io.IOException;
+    import java.sql.Connection;
+    import java.sql.DriverManager;
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+    import java.sql.Statement;
+    import org.apache.log4j.Logger;
+    /**
+     * 2017-03-08 20:07:50
+     * @author chentao
+     *简单的jdbc连接hive实例（已开启kerberos服务）
+     */
+    public class HiveSimple {
 
     private static String driverName = "org.apache.hive.jdbc.HiveDriver";
     private static String url = "jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM";
