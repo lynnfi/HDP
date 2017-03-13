@@ -87,8 +87,6 @@
 
         private static String driverName = "org.apache.hive.jdbc.HiveDriver";
         private static String url = "jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM";
-        private static String user = "";
-        private static String password = "";
         private static String sql = "";
         private static ResultSet res;
     
