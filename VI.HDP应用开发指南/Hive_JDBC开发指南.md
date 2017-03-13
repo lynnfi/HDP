@@ -4,7 +4,7 @@
     * 集成开发环境：Eclipse/IDEA
     * JAVA版本：jdk1.8+
     * Maven版本:3.0+
-    * 获取kerberos认证所需keytab,并存放在开发路径下/conf/
+    * 获取kerberos认证所需keytab,并存放在开发路径下/conf/hive.keytab
 
 **2. 简单示例**
     * 新建Maven Project
