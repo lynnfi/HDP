@@ -4,7 +4,7 @@
     * 集成开发环境：Eclipse/IDEA
     * JAVA版本：jdk1.8+
     * Maven版本:3.0+
-
+    * 获取kerberos认证所需keytab,并存放在开发路径下/conf/
 
 **2. 简单示例**
     * 新建Maven Project
@@ -65,12 +65,12 @@
 * 示例程序HiveSimple.java
 ```
     package com.bmsoft.hive;
+    
     /**
      * Created by chentao on 10/03/2017.
      */
     import org.apache.hadoop.security.UserGroupInformation;
     import org.apache.hive.jdbc.HiveDriver;
-    
     import java.io.IOException;
     import java.sql.Connection;
     import java.sql.DriverManager;
@@ -83,48 +83,43 @@
      * @author chentao
      *简单的jdbc连接hive实例（已开启kerberos服务）
      */
+    
     public class HiveSimple {
-
+    
         private static String driverName = "org.apache.hive.jdbc.HiveDriver";
         private static String url = "jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM";
         private static String sql = "";
         private static ResultSet res;
     
         public static void main(String[] args) {
-    		org.apache.hadoop.conf.Configuration conf = new  org.apache.hadoop.conf.Configuration();
+            /**使用Hadoop安全登录**/
+            org.apache.hadoop.conf.Configuration conf = new  org.apache.hadoop.conf.Configuration();
             conf.set("hadoop.security.authentication", "Kerberos");
             try {
                 UserGroupInformation.setConfiguration(conf);
-                UserGroupInformation.loginUserFromKeytab("hive/hdp39@BMSOFT.COM", "/Users/chentao/Desktop/hive.keytab");
-    		} catch (IOException e1) {
-    			// TODO Auto-generated catch block
-    			e1.printStackTrace();
-    		}
-    
+                UserGroupInformation.loginUserFromKeytab("hive/hdp39@BMSOFT.COM", "./conf/hive.keytab");
+            } catch (IOException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+            }
             try {
                 Class.forName(driverName);
                 Connection conn = DriverManager.getConnection(url);
                 Statement stmt = conn.createStatement();
-    
                 // 创建的表名
-                String tableName = "testHiveDriverTable";
-    
-                /** 第一步:存在就先删除 **/
-                //sql = "DROP TABLE IF EXISTS" + tableName;
-                // stmt.executeQuery(sql);
-    
-                /** 第二步:不存在就创建 **/
-                stmt.execute("create table " + tableName + "(key int, value string)");
-    
-            //查看数据库下所有的表
-                sql = "show tables";
-                System.out.println("Running:" + sql);
-                res = stmt.executeQuery(sql);
-                System.out.println("执行“show tables”运行结果:");
-                while (res.next()) {
-                    System.out.println(res.getString(1));
-                }
-    
+                String tableName = "page_view";
+                /** 创建表 **/
+                sql = "CREATE TABLE IF NOT EXISTS "+tableName+"(viewTime INT, userid BIGINT," +
+                        "     page_url STRING, referrer_url STRING," +
+                        "     ip STRING COMMENT 'IP Address of the User')" +
+                        " COMMENT 'This is the page view table'" +
+                        " PARTITIONED BY(dt STRING, country STRING)" +
+                        " STORED AS SEQUENCEFILE";
+                stmt.execute(sql);
+                show_tables(stmt);
+                /** 删除表**/
+                drop_table(stmt,tableName);
+                show_tables(stmt);
                 conn.close();
             } catch (SQLException e) {
                 // TODO Auto-generated catch block
@@ -135,6 +130,47 @@
             }finally{
                 System.out.println("!!!!!!END!!!!!!!!");
             }
+        }
+    
+        /**
+         * 查看数据库下所有的表
+         * @param statement
+         * @return
+         */
+        public static boolean show_tables(Statement statement){
+            sql = "SHOW TABLES";
+            System.out.println("Running:" + sql);
+            try {
+                res = statement.executeQuery(sql);
+                System.out.println("执行“+sql+运行结果:");
+                while (res.next()) {
+                    System.out.println(res.getString(1));
+                }
+                return true;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            return false;
+        }
+    
+        /**
+         *
+         * @param statement
+         * @param tableName
+         * @return
+         */
+        public static boolean drop_table(Statement statement,String tableName){
+            sql = "DROP TABLE IF EXISTS "+tableName;
+            System.out.println("Running:" + sql);
+            try {
+                statement.execute(sql);
+                System.out.println(tableName+"删除成功");
+                return true;
+            } catch (SQLException e) {
+                System.out.println(tableName+"删除失败");
+                e.printStackTrace();
+            }
+            return false;
         }
     }
 ```
