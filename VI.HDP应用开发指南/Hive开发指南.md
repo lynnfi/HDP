@@ -44,4 +44,4 @@
         | testhivedrivertable             |
         +---------------------------------+--+
 ```
-5. 测试完毕，可以在beeline执行SQL语句，也可以转到下一部分查看Hive_JDBC编程
+5. 测试完毕，可以在beeline执行SQL语句，也可以转到下一部分查看[Hive_JDBC编程]()

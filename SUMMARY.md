@@ -58,7 +58,7 @@
 ## HDP应用开发指南
 * [VI.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
   * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
-
+    * [1.1Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
 
 ## END
 
