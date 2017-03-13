@@ -20,7 +20,7 @@
         renew until 03/08/17 17:20:11      
 ```
 
-3. 连接beeline
+3. 连接beeline,测试连接是否可用
 ```
     $ > beeline
          !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver            
