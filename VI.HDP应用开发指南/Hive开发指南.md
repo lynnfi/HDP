@@ -27,6 +27,21 @@
 4. 连接beeline,测试连接是否可用
 ```
     $ > beeline
-         !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver            
+         !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver  
+            
+         #一路敲回车             
+         Connecting to jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM
+         Enter password for jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM: 
+         Connected to: Apache Hive (version 1.2.1000.2.5.3.0-37)
+         Driver: Hive JDBC (version 1.2.1000.2.5.3.0-37)
+         Transaction isolation: TRANSACTION_REPEATABLE_READ
+         1: jdbc:hive2://10.194.186.40:10000/default> show tables;
+        +---------------------------------+--+
+        |            tab_name             |
+        +---------------------------------+--+
+        | hcatsmokeidc20a28ba_date490317  |
+        | t_bus_parameter                 |
+        | testhivedrivertable             |
+        +---------------------------------+--+
 ```
 
