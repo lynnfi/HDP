@@ -3,7 +3,9 @@
 
 *重要：
 
-1. 初始化kerberos的ticket（如
+1.  远程连接安装有hiveClient的主机
+        
+        ssh 10.194.186.39
 
 2. 初始化kerberos的ticket（如果不进行初始化，将不能够连接到Hiveserver，由于我们的kerberos才用的是keytab的认证方式，所以密码认证并不可行！）
 
