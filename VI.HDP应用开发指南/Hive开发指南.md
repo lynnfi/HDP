@@ -11,13 +11,13 @@
 
         kinit -k -t /etc/security/keytabs/hive.service.keytab  hive/hdp39@BMSOFT.COM
         
-3. 查看是否初始化成功
+3. 查看是否初始化成功(如果不成功换一台机器试一下)
 ```
 
   $>  klist     
         
         Ticket cache: FILE:/tmp/krb5cc_0
-        Default principal: hive/hdp40@BMSOFT.COM
+        Default principal: hive/hdp39@BMSOFT.COM
 
         Valid starting     Expires            Service principal
         03/08/17 17:20:11  03/09/17 17:20:05  krbtgt/BMSOFT.COM@BMSOFT.COM
