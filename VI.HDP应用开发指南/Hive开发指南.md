@@ -3,11 +3,13 @@
 
 *重要：
 
-1. 初始化kerberos的ticket（如果不进行初始化，将不能够连接到Hiveserver，由于我们的kerberos才用的是keytab的认证方式，所以密码认证并不可行！）
+1. 初始化kerberos的ticket（如
+
+2. 初始化kerberos的ticket（如果不进行初始化，将不能够连接到Hiveserver，由于我们的kerberos才用的是keytab的认证方式，所以密码认证并不可行！）
 
         kinit -k -t /etc/security/keytabs/hive.service.keytab  hive/hdp40@BMSOFT.COM
         
-2. 查看是否初始化成功
+3. 查看是否初始化成功
 ```
 
   $>  klist     
@@ -20,7 +22,7 @@
         renew until 03/08/17 17:20:11      
 ```
 
-3. 连接beeline,测试连接是否可用
+4. 连接beeline,测试连接是否可用
 ```
     $ > beeline
          !connect jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM org.apache.hive.jdbc.HiveDriver            
