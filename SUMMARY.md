@@ -47,6 +47,11 @@
       * [2.1.2 PostgreSQL相关配置](IV.HDP权限控制与安全保障/使用psql相关配置.md)
     * [2.2 Ranger安装\(Ambari\)](IV.HDP权限控制与安全保障/Ranger安装.md)
     * [2.3 启用个组件的Ranger插件\(Ambari\)](IV.HDP权限控制与安全保障/启用个组件的Ranger插件.md)
+    
+  * [3. Knox的安装与部署](IV.HDP权限控制与安全保障/Knox安装与部署.md)
+    * [3.1 安装Knox服务](IV.HDP权限控制与安全保障/3.1Knox安装与部署.md)
+
+
 
 ## HDP产品描述
 
