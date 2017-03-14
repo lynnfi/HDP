@@ -47,22 +47,22 @@
       * [2.1.2 PostgreSQL相关配置](IV.HDP权限控制与安全保障/使用psql相关配置.md)
     * [2.2 Ranger安装\(Ambari\)](IV.HDP权限控制与安全保障/Ranger安装.md)
     * [2.3 启用个组件的Ranger插件\(Ambari\)](IV.HDP权限控制与安全保障/启用个组件的Ranger插件.md)
-    
   * [3. Knox的安装与部署](IV.HDP权限控制与安全保障/Knox安装与部署.md)
     * [3.1 安装Knox服务](IV.HDP权限控制与安全保障/3.1Knox安装与部署.md)
-
+  * [V.HDP单点登录与网关](V.HDP单点登录与网关/HDP单点登录与网关.md)
+    * [1.1 使用Knox实现单点登录](V.HDP单点登录与网关/使用Knox实现单点登录.md)
 
 
 ## HDP产品描述
 
-* [V.用户与数据权限管理指南](V.用户与数据权限管理指南/Ranger使用指南.md)
+* [VI.用户与数据权限管理指南](V.用户与数据权限管理指南/Ranger使用指南.md)
   * [1. Ranger对各组件数据权限管理](V.用户与数据权限管理指南/Ranger对各组件的数据权限管理.md)
     * [1.1 HDFS数据权限管理](V.用户与数据权限管理指南/HDFS数据权限管理.md)
   * [2. Yarn实现多租户管理](V.用户与数据权限管理指南/Yarn实现多租户管理.md)
 
 ## HDP应用开发指南
 
-* [VI.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
+* [VII.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
   * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
     * [1.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
 
