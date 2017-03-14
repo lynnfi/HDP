@@ -1,26 +1,23 @@
 ###Hive_JDBC开发指南
 
-**1. 开发前准备**
+####1. 整体流程
+    1. 通过大数据授权中心获得一份kerberos认证所需keytab文件，./conf/hive.keytab
+
+    1. 通过资源目录确认自己需要的信息，
+    2. 确认自己对数据的访问权限，如果没有权限则申请权限
+    3. 完成权限获取，开始进行数据操作~
+
+####2. 开发前准备
     * 集成开发环境：Eclipse/IDEA
     * JAVA版本：jdk1.8+
     * Maven版本:3.0+
     * 获取kerberos认证所需keytab,并存放在开发路径下./conf/hive.keytab
 
-**2. 简单示例**
+####3. 简单示例
     * 新建Maven Project
     
-    * 引入Maven依赖（Hive相关的依赖包都需要引进来）      
+    * 在pom.xml中引入以下Maven依赖（Hive相关的依赖包都需要引进来）      
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.bmsoft</groupId>
-    <artifactId>hive</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
         <dependency>
@@ -59,7 +56,6 @@
             <version>1.2.1</version>
         </dependency>
     </dependencies>
-</project>
 ```
 
 * 示例程序HiveSimple.java
