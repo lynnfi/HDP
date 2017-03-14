@@ -21,8 +21,7 @@
 ENJOY DATA~
 
 
-### Issue 意见、建议 {#issue-意见、建议}
-
+### Issue 意见、建议 
 因个人水平所限，文档编辑过程中难免有所偏差，如有勘误、建议，欢迎拍砖：E-mail：[minskychen@gmail.com](mailto:minskychen@gmail.com)
 
 
