@@ -61,5 +61,9 @@
   * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
     * [1.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
 
+##附录
+* [附录I. 常用工具](附录I.常用工具)
+  * [1.1 LDAP管理工具](附录I.常用工具/LDAP管理工具.md)
+  
 ## END
 
