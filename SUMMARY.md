@@ -5,7 +5,7 @@
 ## HDP安装指南
 
 * [I.安装前准备](I.安装前准备/I.安装前准备.md)
-  * [1. 基本概念](I.安装前准备/基本概念.md)
+  * [1. 基本认知](I.安装前准备/基本概念.md)
   * [2. 部署方案确认](I.安装前准备/部署方案确认.md)
   * [3. 最低资源需求](I.安装前准备/最低资源需求.md)
     * [3.1 操作系统需求](I.安装前准备/操作系统需求.md)
@@ -27,7 +27,7 @@
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)
 * [II.安装Ambari](II.安装Ambari/安装Ambari.md)
-  * [5. 下载Ambari所需安装包](II.安装Ambari/下载Ambari安装包.md)
+  * [5. 通过yum安装Ambari](II.安装Ambari/下载Ambari安装包.md)
     * [5.1 RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
     * [5.2 RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
   * [6. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
@@ -51,6 +51,8 @@
     * [3.1 安装Knox服务](IV.HDP权限控制与安全保障/3.1Knox安装与部署.md)
 * [V.HDP单点登录与网关](V.HDP单点登录与网关/HDP单点登录与网关.md)
   * [1.1 使用LDAP实现统一用户管理](V.HDP单点登录与网关/使用LDAP实现统一用户管理.md)
+    * [1.1.1 Ambari统一用户管理配置](V.HDP单点登录与网关/Ambari统一用户管理配置.md)
+    * [1.1.2 Ranger统一用户管理配置](V.HDP单点登录与网关/Ranger统一用户管理配置.md)
   * [1.2 使用Knox实现单点登录](V.HDP单点登录与网关/使用Knox实现单点登录.md)
 
 ## HDP产品描述
