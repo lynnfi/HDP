@@ -71,7 +71,7 @@
 ## 附录
 
 * [附录I. 常用工具](附录I.常用工具/常用工具.md)
-  * [1.1 LDAP管理工具\(Apache Directory Studio\)](附录I.常用工具/LDAP管理工具.md)
+  * [1.1 LDAP管理工具\(Apache Directory Studio\)](附录I.常用工具/LDAP管理软件.md)
 
 ## END
 
