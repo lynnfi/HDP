@@ -67,10 +67,10 @@
 * [VII.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
   * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
     * [1.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
-    * [1.2csv导入Hive乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
+    * [1.2Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
 
 ## 附录
+
 * [附录I.常用工具](附录I.常用工具/常用工具.md)
-  * [1.LDAP管理软件](附录I.常用工具/LDAP管理工具.md)  
-## END
+  * [1.LDAP管理软件](附录I.常用工具/LDAP管理工具.md)
 
