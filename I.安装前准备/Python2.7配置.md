@@ -35,6 +35,7 @@
         ln -sf /usr/local/bin/pip /usr/bin/pip
         ln -sf /usr/local/bin/easy_install /usr/bin/easy_install
 
+安装pip的第二种方案（已经有setuptools的情况下使用）：
         
 * 安装epel扩展源：
     
