@@ -13,8 +13,7 @@
     ```
     cd Python-2.7.8 
     ./configure --prefix=/usr/local
-    make
-    make install
+    make & make install
     ```
     
 4. 替代原有python
@@ -34,7 +33,11 @@
         #建立软连接
         ln -sf /usr/local/bin/pip /usr/bin/pip
         ln -sf /usr/local/bin/easy_install /usr/bin/easy_install
+7. 安装sqllit2
 
+       yum install sqlite3-devel -y
+        easy_install pysqlite
+        
 安装pip的第二种方案（已经有setuptools的情况下使用）：
         
 * 安装epel扩展源：
