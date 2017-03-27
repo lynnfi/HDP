@@ -7,3 +7,14 @@
 
 建议采用以下解决方案：
 如果是gbk格式的文件，使用sublime将csv文件转换utf-8格式。然后再导入hive表中。
+
+1. 创建外部表
+```
+CREATE EXTERNAL TABLE test_100m(
+     ip STRING, name STRING,
+     logdate TIMESTAMP,log STRING COMMENT 'Access Log For the ip Address of the User')
+ COMMENT 'This is the 100 million rows test table'
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS TEXTFILE
+ LOCATION '/apps/hive/warehouse/testdata';
+```
