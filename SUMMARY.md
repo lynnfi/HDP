@@ -26,7 +26,7 @@
     * [4.4 ntp时间同步](I.安装前准备/ntp时间同步.md)
     * [4.5 关闭防火墙](I.安装前准备/关闭防火墙.md)
     * [4.6 禁用SELinux和PackageKit](I.安装前准备/禁用SELinux&PackageKit.md)
-    * [4.7 Python2.7配置](I.安装前准备/Python2.7配置.md)    
+    * [4.7 Python2.7配置](I.安装前准备/Python2.7配置.md)
 * [II.安装Ambari](II.安装Ambari/安装Ambari.md)
   * [5. 通过yum安装Ambari](II.安装Ambari/下载Ambari安装包.md)
     * [5.1 RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
@@ -66,9 +66,11 @@
 ## HDP应用开发指南
 
 * [VII.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
-  * [1.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
-    * [1.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
-    * [1.2Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
+  * [1.HDFS开发指南](VI.HDP应用开发指南/HDFS/HDFS开发指南.md)
+    * [1.1HDFS常用操作](VI.HDP应用开发指南/HDFS/HDFS常用操作.md)
+  * [2.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
+    * [2.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
+    * [2.2Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
 
 ## 附录
 
