@@ -1,18 +1,23 @@
 ### 禁用SELinux和PackageKit
 
 1. 禁用selinux
+
+  -  查看当前SELinux状态
+  `/usr/sbin/sestatus`
+  
   - 在当前终端禁用SELinux
 
     `setenforce 0`
 
-  - 永久禁用SELinux
-* 
+  - 永久禁用SELinux 
    ```
    vim /etc/selinux/config
-
    #确认SELINUX为禁用状态
    SELINUX=disabled
    ```
+   - 重启计算机
+   
+     `sudo reboot`
 
 2. 禁用PackageKit
 
