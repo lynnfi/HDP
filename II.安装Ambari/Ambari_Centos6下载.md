@@ -29,15 +29,16 @@
    | extras | CentOS-6 - Extras | 15 |
    | updates | CentOS-6 - Updates | 209 |
 
-1. 安装Ambari
+4. 安装Ambari
 
    ```
      yum install ambari-server
    ```
 
-2. 根据提示完成安装（输入y进行操作和版本信息的确认）
- 
- 安装成功后应该有如下输出：
+5. 根据提示完成安装（输入y进行操作和版本信息的确认）
+
+   安装成功后应该有如下输出：
+
    ```
    Installing : postgresql-libs-8.4.20-3.el6_6.x86_64         1/4
    Installing : postgresql-8.4.20-3.el6_6.x86_64              2/4
@@ -57,7 +58,7 @@
     postgresql-server.x86_64 0:8.4.20-3.el6_6
 
    Complete!
-```
+   ```
 
 
 
