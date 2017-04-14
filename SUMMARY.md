@@ -71,8 +71,10 @@
   * [2.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
     * [2.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
     * [2.2Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
-  * [3.Flume开发指南](VI.HDP应用开发指南/Flume开发指南.md)
-    * [3.1Flume导入HBase](VI.HDP应用开发指南/Flume导入HBase.md)
+  * [3.HBase开发指南](VI.HDP应用开发指南/HBase开发指南.md)    
+    * [3.1 HBase创建表](VI.HDP应用开发指南/HBase创建表.md) 
+  * [4.Flume开发指南](VI.HDP应用开发指南/Flume开发指南.md)
+    * [4.1Flume导入HBase](VI.HDP应用开发指南/Flume导入HBase.md)
 
 
 
