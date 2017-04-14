@@ -66,15 +66,16 @@
 ## HDP应用开发指南
 
 * [VII.HDP应用开发指南](VI.HDP应用开发指南/应用开发指南.md)
-  * [1.HDFS开发指南](VI.HDP应用开发指南/HDFS/HDFS开发指南.md)
+  * [1. HDFS开发指南](VI.HDP应用开发指南/HDFS/HDFS开发指南.md)
     * [1.1HDFS常用操作](VI.HDP应用开发指南/HDFS/HDFS常用操作.md)
-  * [2.Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
-    * [2.1Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
-    * [2.2Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
-  * [3.HBase开发指南](VI.HDP应用开发指南/HBase开发指南.md)    
-    * [3.1 HBase创建表](VI.HDP应用开发指南/HBase创建表.md) 
+  * [2. Hive开发指南](VI.HDP应用开发指南/Hive开发指南.md)
+    * [2.1 Hive\_JDBC开发示例](VI.HDP应用开发指南/Hive_JDBC开发指南.md)
+    * [2.2 Csv导入Hive中文乱码问题解决](VI.HDP应用开发指南/csv导入Hive乱码问题解决.md)
+  * [3. HBase开发指南](VI.HDP应用开发指南/HBase开发指南.md)    
+    * [3.1 使用Shell操作HBase](VI.HDP应用开发指南/Shell操作HBase.md) 
+    * [3.2 使用Phoenix操作HBase](VI.HDP应用开发指南/使用Phoenix操作HBase.md) 
   * [4.Flume开发指南](VI.HDP应用开发指南/Flume开发指南.md)
-    * [4.1Flume导入HBase](VI.HDP应用开发指南/Flume导入HBase.md)
+    * [4.1 Flume导入HBase](VI.HDP应用开发指南/Flume导入HBase.md)
 
 
 
