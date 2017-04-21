@@ -38,16 +38,16 @@
     
     a1.sinks.k1.type = hbase
     
-    a1.sinks.k1.table = secure_log
+    a1.sinks.k1.table = webservice_log
     
-    a1.sinks.k1.columnFamily = log_cf
+    a1.sinks.k1.columnFamily = cf_log
     
     a1.sinks.k1.serializer = org.apache.flume.sink.hbase.RegexHbaseEventSerializer
-    a
+    a1.sinks.k1.serializer.rowKeyIndex = 0
+    
     a1.sinks.k1.channel = c1
     
     a1.sinks.k1.kerberosPrincipal = hbase/hdp40@BMSOFT.COM
-    
     a1.sinks.k1.kerberosKeytab = /etc/security/keytabs/hbase.service.keytab 
         ```
         
