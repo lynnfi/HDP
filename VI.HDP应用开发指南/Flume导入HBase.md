@@ -35,17 +35,19 @@
     a1.channels = c1
     
     a1.sinks = k1
+    a1.sinks.k1.batchSize = 10
     
     a1.sinks.k1.type = hbase
-    
     a1.sinks.k1.table = webservice_log
-    
     a1.sinks.k1.columnFamily = cf_log
     
     a1.sinks.k1.serializer = org.apache.flume.sink.hbase.RegexHbaseEventSerializer
     a1.sinks.k1.serializer.rowKeyIndex = 0
     
+    a1.sinks.k1.serializer.regex=^([^,]+),([^,]+),([^,]+),([^,]+)$
+    a1.sinks.k1.serializer.colNames=c1,c2,c3,c4        
     a1.sinks.k1.channel = c1
+
     
     a1.sinks.k1.kerberosPrincipal = hbase/hdp40@BMSOFT.COM
     a1.sinks.k1.kerberosKeytab = /etc/security/keytabs/hbase.service.keytab 
