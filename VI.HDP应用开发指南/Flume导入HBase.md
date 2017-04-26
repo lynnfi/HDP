@@ -47,7 +47,6 @@
     a1.sinks.k1.serializer.regex=^([^,]+),([^,]+),([^,]+),([^,]+)$
     a1.sinks.k1.serializer.colNames=c1,c2,c3,c4        
     a1.sinks.k1.channel = c1
-
     
     a1.sinks.k1.kerberosPrincipal = hbase/hdp40@BMSOFT.COM
     a1.sinks.k1.kerberosKeytab = /etc/security/keytabs/hbase.service.keytab 
