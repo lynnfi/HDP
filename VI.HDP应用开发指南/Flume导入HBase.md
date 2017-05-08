@@ -54,7 +54,8 @@
         
 4. 运行Flume客户端
     
-    ```flume-ng agent -c /etc/flume/conf -f /etc/flume/conf/log2hbase.conf -Dflume.root.logger=DEBUG,console -n a1
+    ```
+    flume-ng agent -c /etc/flume/conf -f /etc/flume/conf/log2hbase.conf -Dflume.monitoring.port=5653 -Dflume.root.logger=DEBUG,console -n a1
     ```
     参数说明：
     -n 指定agent名称
