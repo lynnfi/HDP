@@ -61,6 +61,7 @@
     -n 指定agent名称
     -c 指定配置文件目录
     -f 指定配置文件
+    -Dflume.monitoring.port=5653 设置监控端口
     -Dflume.root.logger=DEBUG,console设置日志级别
 
 
