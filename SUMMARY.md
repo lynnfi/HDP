@@ -31,7 +31,9 @@
   * [5. 通过yum安装Ambari](II.安装Ambari/下载Ambari安装包.md)
     * [5.1 RHEL/CentOS/Oracle Linux 6](II.安装Ambari/Ambari_Centos6下载.md)
     * [5.2 RHEL/CentOS/Oracle Linux 7](II.安装Ambari/Ambari_Centos7下载.md)
-  * [6. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
+  * [6. Ambari的离线安装](II.安装Ambari/Ambari的离线安装.md)
+
+  * [7. 配置Ambari Server](II.安装Ambari/配置AmbariServer.md)
 * [III.安装、配置并部署HDP集群](III.部署HDP集群/HDP集群部署.md)
   * [7. 登录并简单了解Ambari](III.部署HDP集群/下载Ambari安装包.md)
   * [8. HDP集群搭建](III.部署HDP集群/HDP集群搭建.md)
