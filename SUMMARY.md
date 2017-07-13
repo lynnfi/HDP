@@ -1,6 +1,6 @@
 # Summary
 
-* [本书简介啊](README.md)
+* [本书简介](README.md)
 
 ## HDP安装指南
 

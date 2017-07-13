@@ -1,70 +1,76 @@
-###Hive_JDBC开发指南
+### Hive\_JDBC开发指南
 
-####1. 整体流程
-    1. 通过大数据授权中心获得一份kerberos认证,会获取到以下信息:
-        
-            * 所需keytab文件，如：bmsoft.keytab
-            * 文件以及对应的${用户名}/${主机所在域}，如：bm_user/hdp39@BMSOFT.COM
+#### 1. 整体流程
 
-    1. 通过资源目录确认自己需要的信息，
-    2. 确认自己对数据的访问权限，如果没有权限则申请权限
-    3. 完成权限获取，开始进行数据操作~
+1. 通过大数据授权中心获得一份kerberos认证,会获取到以下信息:
 
-####2. 开发前准备
-    * 集成开发环境：Eclipse/IDEA
-    * JAVA版本：jdk1.8+
-    * Maven版本:3.0+
-    * 获取kerberos认证所需keytab,并存放在开发路径下./conf/hive.keytab
+   * 所需keytab文件，如：bmsoft.keytab
+   * 文件以及对应的${用户名}/${主机所在域}，如：bm\_user/hdp39@BMSOFT.COM
 
-####3. 简单示例
-    * 新建Maven Project
-    
-    * 在pom.xml中引入以下Maven依赖（Hive相关的依赖包都需要引进来）      
-```
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-jdbc</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-common</artifactId>
-            <version>2.7.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-exec</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-metastore -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-metastore</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-common -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-common</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-service -->
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-service</artifactId>
-            <version>1.2.1</version>
-        </dependency>
-    </dependencies>
-```
+2. 通过资源目录确认自己需要的信息，
+
+3. 确认自己对数据的访问权限，如果没有权限则申请权限
+4. 完成权限获取，开始进行数据操作~
+
+#### 2. 开发前准备
+
+* 集成开发环境：Eclipse/IDEA
+* JAVA版本：jdk1.8+
+* Maven版本:3.0+
+* 获取kerberos认证所需keytab,并存放在开发路径下./conf/hive.keytab
+
+#### 3. 简单示例
+
+* 新建Maven Project
+
+* 在pom.xml中引入以下Maven依赖（Hive相关的依赖包都需要引进来）
+
+  ```
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
+    <dependency>
+        <groupId>org.apache.hive</groupId>
+        <artifactId>hive-jdbc</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+    <dependency>
+        <groupId>org.apache.hadoop</groupId>
+        <artifactId>hadoop-common</artifactId>
+        <version>2.7.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+    <dependency>
+        <groupId>org.apache.hive</groupId>
+        <artifactId>hive-exec</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-metastore -->
+    <dependency>
+        <groupId>org.apache.hive</groupId>
+        <artifactId>hive-metastore</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-common -->
+    <dependency>
+        <groupId>org.apache.hive</groupId>
+        <artifactId>hive-common</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-service -->
+    <dependency>
+        <groupId>org.apache.hive</groupId>
+        <artifactId>hive-service</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+  </dependencies>
+  ```
 
 * 示例程序HiveSimple.java
-```
+
+  ```
     package com.bmsoft.hive;
-    
+
     /**
      * Created by chentao on 10/03/2017.
      */
@@ -82,14 +88,14 @@
      * @author chentao
      *简单的jdbc连接hive实例（已开启kerberos服务）
      */
-    
+
     public class HiveSimple {
-    
+
         private static String driverName = "org.apache.hive.jdbc.HiveDriver";
         private static String url = "jdbc:hive2://10.194.186.40:10000/default;principal=hive/hdp40@BMSOFT.COM";
         private static String sql = "";
         private static ResultSet res;
-    
+
         public static void main(String[] args) {
             /**使用Hadoop安全登录**/
             org.apache.hadoop.conf.Configuration conf = new  org.apache.hadoop.conf.Configuration();
@@ -130,7 +136,7 @@
                 System.out.println("!!!!!!END!!!!!!!!");
             }
         }
-    
+
         /**
          * 查看数据库下所有的表
          * @param statement
@@ -151,7 +157,7 @@
             }
             return false;
         }
-    
+
         /**
          *
          * @param statement
@@ -172,4 +178,7 @@
             return false;
         }
     }
-```
+  ```
+
+
+
